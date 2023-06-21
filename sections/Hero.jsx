@@ -39,7 +39,7 @@ const Hero = () => (
           className="relative -top-[20px] z-10 h-[350px] w-full rounded-tl-[140px] object-cover sm:h-[500px] md:-top-[50px]"
         />
 
-        <a type="button">
+        <a href="">
           <div className="relative z-10 -mt-[80px] flex w-full justify-end pr-[40px] md:-mt-[125px]">
             <img
               src="/stamp.png"
