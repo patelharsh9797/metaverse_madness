@@ -72,12 +72,12 @@ export const socials = [
   {
     name: "twitter",
     url: "/twitter.svg",
-    link: "#",
+    link: "https://twitter.com/Patelharsh_9797",
   },
   {
     name: "linkedin",
     url: "/linkedin.svg",
-    link: "#",
+    link: "https://www.linkedin.com/in/harsh-patel9797/",
   },
   {
     name: "instagram",
