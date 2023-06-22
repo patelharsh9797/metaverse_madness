@@ -1,7 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { slideIn, staggerContainer, textVariant } from "../utils/motion";
+import {
+  slideIn,
+  staggerContainer,
+  textVariant,
+  zoomIn,
+} from "../utils/motion";
 import styles from "../styles";
 
 const Hero = () => (
@@ -40,13 +45,16 @@ const Hero = () => (
         />
 
         <a href="">
-          <div className="relative z-10 -mt-[80px] flex w-full justify-end pr-[40px] md:-mt-[125px]">
+          <motion.div
+            variants={zoomIn(1.4, 1)}
+            className="relative z-10 -mt-[80px] flex w-full justify-end pr-[40px] md:-mt-[125px]"
+          >
             <img
               src="/stamp.png"
               alt="stamp"
               className="h-[100px] w-[100px] object-contain sm:h-[155px] sm:w-[155px]"
             />
-          </div>
+          </motion.div>
         </a>
       </motion.div>
     </motion.div>
