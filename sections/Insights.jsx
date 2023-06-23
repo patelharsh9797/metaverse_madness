@@ -10,12 +10,13 @@ import { insights } from "../constants";
 
 const Insights = () => (
   <section className={`${styles.paddings} relative z-10`}>
+    <div className="gradient-04 z-0" />
     <motion.div
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex flex-col`}
+      className={`${styles.innerWidth} relative z-10 mx-auto flex flex-col`}
     >
       <TypingText title="| Insight" textStyles="text-center" />
       <TitleText

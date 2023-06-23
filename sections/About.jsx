@@ -9,11 +9,12 @@ import styles from "../styles";
 const About = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <div className="gradient-02 z-0" />
+    <div className="gradient-03 z-0 mt-[50px]" />
     <motion.div
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col `}
+      className={`${styles.innerWidth} relative z-10 mx-auto ${styles.flexCenter} flex-col `}
     >
       <TypingText
         title="| About Metaversus"
